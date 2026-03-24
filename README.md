@@ -40,6 +40,7 @@ GitHub: `Vasmai1610/Vasmai1610-IntelliDoc-Review-Engine`
 ├── README.md
 └── .streamlit/
     └── secrets.toml.example
+```
 
 ## Setup
 
