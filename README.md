@@ -1,6 +1,10 @@
-# Document Processing Pipeline
+# IntelliDoc Review Engine
 
-A professional Streamlit-based document processing application for compliance and operations workflows. The app lets users select a workflow, upload documents, classify them with AI, extract required key fields, and review the results in a simple UI.
+IntelliDoc Review Engine is a professional Streamlit-based document processing application for compliance and operational workflows. It allows users to select a workflow, upload documents, classify them with AI, extract required key fields, and review results through an interactive interface.
+
+## Repository
+
+GitHub: `Vasmai1610/Vasmai1610-IntelliDoc-Review-Engine`
 
 ## Features
 
@@ -36,15 +40,14 @@ A professional Streamlit-based document processing application for compliance an
 ├── README.md
 └── .streamlit/
     └── secrets.toml.example
-```
 
 ## Setup
 
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone https://github.com/Vasmai1610/Vasmai1610-IntelliDoc-Review-Engine.git
+cd Vasmai1610-IntelliDoc-Review-Engine
 ```
 
 ### 2. Create a virtual environment
@@ -96,11 +99,11 @@ streamlit run app.py
 
 ## How It Works
 
-1. Select a compliance process
-2. Upload one or more business documents
+1. Select a compliance or business process
+2. Upload one or more supporting documents
 3. Classify each document into a required document type
-4. Extract the configured fields from matched documents
-5. Review and manually edit JSON results in the UI
+4. Extract configured fields from matched documents
+5. Review and manually edit extracted JSON results
 
 ## Security Notes
 
